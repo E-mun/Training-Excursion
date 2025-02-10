@@ -8,7 +8,10 @@ main {
     text-align: center;
     font-family: Verdana, Tahoma, sans-serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
 }
 
 main h1 {
@@ -22,3 +25,11 @@ main h6 {
     text-decoration: underline;
 }
 
+p {
+    font-size: 1.375rem;
+    color: grey;
+}
+
+#coming-soon img {
+    padding: 1.5rem;
+}
